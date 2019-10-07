@@ -1,0 +1,15 @@
+{
+  "name": "nasirwatts",
+  "version": "1.0.0",
+  "description": "Professional Portfolio",
+  "main": "index.js",
+  "homepage": "https:/nasirwatts.github.io/portfolio",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Nasir Watts",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
