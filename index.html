@@ -22,6 +22,31 @@
 </head>
 
 <body class="is-preload">
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v6.0'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="339958053350548"
+logged_in_greeting="Hi! How can I help you?"
+logged_out_greeting="Hi! How can I help you?">
+  </div>
   <!-- Wrapper -->
   <div id="wrapper">
     <!-- Testing out a mobile menu -->
@@ -296,12 +321,25 @@
         <div class="info">
           <div class="info-box">
             <h4>Cornerstone Brands - Email Developer</h4>
-            <span class="date">March 2019 - Present</span>
+            <span class="date">March 2018 - Present</span>
             <p>
-              Coding responsive HTML emails for variable data campaigns. My job is to design, develop, deploy, test,
-              and track email campaigns for FrontGate and GrandinRoads.
-              I am responsible for successful translation of concepts into bulletproof code across email,
-              mobile, and web channels, controlling quality for multiple products/projects in a busy environment.
+              •	Break down Photoshop Document designs and optimize images for the web
+              •	Develop, deploy, and test email campaigns
+              •	Responsible for successful translation of concepts into bulletproof code across email, mobile, and web channels, controlling quality for multiple products/projects in a busy environment
+              •	Experience using Salesforce, Invision, Litmus, Photoshop, Basecamp, Mailchimp, and Coherent Path
+              •	Tested over 1,000 emails and performed troubleshooting prior to deployment
+              •	Delivered support to Marketing Specialists and Email Management team to train, educate, and answer questions
+              
+            </p>
+          </div>
+          <div class="info-box">
+            <h4>Front End Web Developer - SS&C Primatics</h4>
+            <span class="date">April 2017 - February 2018</span>
+            <p>
+              •	Responsible for contributing to the design and development of user interfaces. Member of the Front-End Dev team using HTML, CSS, and Javascript, and REACT.
+              •	Identified UX pain points and provide knowledgeable recommendations for implementing unified user experience
+              •	Operated in an Agile-governed workplace to get the best use of team resources while achieving project milestones
+              •	Worked with UI/UX designers and product managers to help design and build user interactions in applications                
             </p>
           </div>
           <div class="info">
@@ -309,27 +347,18 @@
               <h4>Freelance - Web Developer</h4>
               <span class="date">June 2017 - Present</span>
               <p>
-                Expert in web and application development using a variety of
-                development tools to assure a precise, clean, and professional
-                website. I've worked with many small business owners just like
-                you, from barbershops/salons to restaurant owners to freelance
-                instructors. The <i>Do it yourself</i> drag and drop sites are
-                pretty darn cool, I say myself. But if you'd like to work
-                directly with someone who helps you with your updates and
-                consultation along the way, <strong>I'm your guy!</strong>
+              •	Expert in web and application development using a variety of development tools to assure a precise, clean, and professional website.
+              •	Worked with 10 small business owners to enhance user interaction, build trust, and drive sales
+              •	Webmaster and consultant using development skills to help maintain and optimize websites for production use
+              •	Resolve conflicts and negotiate agreements between parties in order to reach win-win solutions to disagreements and clarify misunderstandings
+              •	Determine coding requirements for site creation, including e-commerce capability and specialized scripts
+              •	Tested websites and performed troubleshooting prior to deployment
+              •	Designed sites to be compatible with top browsers, including Firefox, Chrome and Safari
+              •	Create eye catching and functional digital design concepts across various platforms to strengthen company brand and identity
+
               </p>
             </div>
-            <div class="info-box">
-              <h4>Front End Web Developer - SS&C Primatics</h4>
-              <span class="date">August 2018 - February 2019</span>
-              <p>
-                I was contracted here as a remote developer. Here I was
-                responsible for designing and developing next generation user
-                interfaces. I helped to create intuitive visualizations of large
-                initial-scale data and analytics using strong user experience
-                principals.
-              </p>
-            </div>
+            
             <!-- <div class="info-box">
 				<h4>Graphic Artist - Nike</h4>
 				<span class="date">June 2012 - July 2013</span>
